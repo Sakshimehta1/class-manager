@@ -1,4 +1,4 @@
-import 'package:class_manager/addClass.dart';
+// import 'package:class_manager/addClass.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -206,10 +206,10 @@ class _HomePageState extends State<HomePage> {
         //     RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))
       ),
       onPressed: () async {
-        setState(() {
-          Navigator.of(context)
-              .push(MaterialPageRoute(builder: (context) => const AddClass()));
-        });
+        // setState(() {
+        //   Navigator.of(context)
+        //       .push(MaterialPageRoute(builder: (context) => const AddClass()));
+        // });
       },
     );
   }
